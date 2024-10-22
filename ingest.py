@@ -23,7 +23,7 @@ def embed_all():
 
     index = GPTVectorStoreIndex(nodes)
 
-    # Save the index locally
+
     index.storage_context.persist(persist_dir=FAISS_INDEX)
 
 if __name__ == "__main__":
