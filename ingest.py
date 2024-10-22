@@ -20,7 +20,7 @@ def embed_all():
     parser = SimpleNodeParser()
     nodes = parser.get_nodes_from_documents(documents)
 
-    # Create vector store index
+
     index = GPTVectorStoreIndex(nodes)
 
     # Save the index locally
